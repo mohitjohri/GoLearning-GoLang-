@@ -16,8 +16,6 @@ func main() {
 	findByRecursion := binarySearchByRecursion(slice, number, 0, len(slice)-1)
 	findByIteration := binarySearchByIteration(slice, number, 0, len(slice)-1)
 
-	fmt.Printf("Position of number %d", number)
-	fmt.Printf(" in the slice by recursion method is:%d\n", findByRecursion)
-	fmt.Printf("Position of number %d", number)
-	fmt.Printf(" in the slice by iteration method is:%d", findByIteration)
+	fmt.Printf("Position of number %d in the slice by recursion method is:%d\n", number, findByRecursion)
+	fmt.Printf("Position of number %d in the slice by iteration method is:%d", number, findByIteration)
 }
